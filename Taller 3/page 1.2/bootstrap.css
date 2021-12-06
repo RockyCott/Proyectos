@@ -1,78 +1,25 @@
-body {
-    font-family: "Lato", sans-serif;
+img {width:100%;}
+
+.card-body h2{
+    font-size: 23px;
+    margin: 0 px 20px 0;
+    padding:20% 0 20% 0;
+    text-align: center;
+    text-transform:uppercase;
 }
 
-
-
-.main-head{
-    height: 100px;
-    background: #FFF;
-   
+.card-body img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
 }
-
-.sidenav {
-    height: 100%;
-    background-image: url("https://www.xtrafondos.com/wallpapers/vertical/genshin-impact-personajes-7760.jpg");
-    overflow-x: hidden;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 20px;
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }
-
-
-.main {
-    padding: 0px 100px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-}
-
-@media screen and (max-width: 450px) {
-    .login-form{
-        margin-top: 10%;
-    }
-
-    .register-form{
-        margin-top: 10%;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .main{
-        margin-left: 40%; 
-    }
-
-    .sidenav{
-        width: 40%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-    }
-
-    .login-form{
-        margin-top: 80%;
-    }
-
-    .register-form{
-        margin-top: 20%;
-    }
-}
-
-
-.login-main-text{
-    margin-top: 20%;
-    padding: 60px;   
-}
-
-.login-main-text h2{
-    font-weight: 100%;
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-}
-
-.btn-black{
-    background-color: #000 !important;
-    color: #fff;
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
 }
