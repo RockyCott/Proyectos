@@ -8,12 +8,14 @@ body{
     background-size: cover;
 	min-height:100vh;
 	font-family: 'Noto Sans', sans-serif;
+	width: 100%;
+	height: 100%;
 }
 .text-center{
 	color:#fff;	
 	text-transform:uppercase;
     font-size: 23px;
-    margin: -50px 0 80px 0;
+    margin: 0 0px 20px 0;
     display: block;
     text-align: center;
 }
@@ -24,11 +26,11 @@ body{
 	transform: translate(-50%,-50%);
     background-color: rgba(0, 0, 0, 0.89);
 	border-radius:3px;
-	padding:70px 100px;
+	padding:50px 100px;
 }
 .input-container{
-	position:relative;
-	margin-bottom:25px;
+	position: relative;
+	margin-bottom:20px;
 }
 .input-container label{
 	position:absolute;
@@ -67,7 +69,7 @@ body{
 	cursor:pointer;
 	position:relative;
 }
-.btn:after{
+.btn:right{
 	content:"";
 	position:absolute;
 	background:rgba(0,0,0,0.50);
@@ -94,6 +96,7 @@ select {
 select option{
 	color: black;
 	
+		
 }
 .input-container select:focus{ 
  border:none;	
