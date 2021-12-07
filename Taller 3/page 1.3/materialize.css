@@ -1,39 +1,9 @@
-body {  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  
-}
-
-main {
-  flex: 1 0 auto;
-}
-
-body {
-  background: #fff;
-  background-image: url("https://www.xtrafondos.com/wallpapers/degradado-difuminado-azul-7935.jpg");
+body{
+  background-image: url("https://lh3.googleusercontent.com/proxy/c2RvFIUuSPa-X9amOaldl7PebY4c-dpzBUEq2wTCgzBL6JXU2bvAA9vi269yJZsCNV0k2_0Brata_Z-B9MmD4hS60XlyaeS9r7DmqDK1akRCsx8WCvC328ODdg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.indigo-text{
-
-    font-weight: 500%;
-    font-size: 23px;
-    display:block;
-    color: #e91e63 !important;
-}
-
-.input-field input[type=date]:focus + label,
-.input-field input[type=text]:focus + label,
-.input-field input[type=email]:focus + label,
-.input-field input[type=password]:focus + label {
-  color: #e91e63;
-}
-
-.input-field input[type=date]:focus,
-.input-field input[type=text]:focus,
-.input-field input[type=email]:focus,
-.input-field input[type=password]:focus {
-  border-bottom: 2px solid #e91e63;
-  box-shadow: none;
+.form-field input{
+ height: 15px !important; 
 }
