@@ -1,11 +1,40 @@
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
+
 .browser-default{
+    background-color: transparent !important; 
     color: #9e9e9e;
     margin-left: 40px !important;
     width: 92%;
     border:0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+    border-bottom: 1px solid rgb(255, 255, 255, 0.550) ;
 }
 
 
+.fondo{
+    position:absolute;
+    left:50%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius:1px;
+    padding:1px 1px;
+}
+
+h3{
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.nav-wrapper h3{
+    position: relative;
+    bottom: 1px;
+}
+
+body{
+    background-image: url("https://images3.alphacoders.com/555/thumb-1920-555568.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh;
+}
