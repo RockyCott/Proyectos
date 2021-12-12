@@ -5,18 +5,18 @@
     background-color: transparent !important; 
     color: #0d1b2a;
     margin-left: 40px !important;
-    width: 92%;
+    width: 84%;
     border:0;
-    border-bottom: 1px solid #0d1b2a ;
+    border-bottom: 1px solid #0d1b2a;
 }
 
 
 .fondo{
     position:absolute;
     left:50%;
-    top:40%;
+    top:50%;
     transform: translate(-50%,-50%);
-    background-color: #9a8c9896;
+    background-color: #c9ada7d0;
     border-radius:1px;
     padding:1px 1px;
 }
@@ -32,7 +32,7 @@ h3{
 }
 
 body{
-    background-image: url('https://www.xtrafondos.com/wallpapers/montanas-en-bosque-minimalista-flat-3306.jpg');
+    background-image: url('https://c.tenor.com/SvEB1WkBuwUAAAAd/twerk-superheroes.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,5 +45,9 @@ select option{
 
 label{
     color: #0d1b2a !important;
+}
+
+.validate{
+    border-bottom: 1px solid #0d1b2a !important ;
 }
 
