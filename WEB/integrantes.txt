@@ -2,3 +2,8 @@ Integrantes:
 
 Daniel Felipe Jaimes Blanco - 2191726
 David Mauricio Gallo Franco - 2190070
+Leider Eduardo Diaz Martinez - 2191548
+
+Nota: el integrante Leider Eduardo Diaz Martinez 
+pertenece al grupo H1 de Programación en la web, 
+pero asiste a las clases del grupo J1.
