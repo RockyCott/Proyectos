@@ -1,7 +1,5 @@
 body {
-    background: #222;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("https://unsplash.it/1200/800/?random");
+    background: url("https://unsplash.it/1200/800/?random");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -52,5 +50,21 @@ body {
     position: absolute;
     top: -20px;
     right: -20px;
+  }
+
+  textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 50px;
+    border:0;
+    border-bottom: 1px solid #222;
+  }
+
+  label{
+    color: black !important;
+  }
+
+  textarea::placeholder{
+    color:black !important;
   }
   
