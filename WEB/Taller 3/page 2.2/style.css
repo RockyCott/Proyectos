@@ -17,3 +17,8 @@ select option{
 .col-md-8{
     background-color: white !important;
 }
+
+#cold,
+#fecha{
+    margin-bottom: 1px !important;
+}
