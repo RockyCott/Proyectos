@@ -48,14 +48,20 @@ input{
 
 .form-control{
 	border-right: 0;
+	border-radius: 5px;
+
 }
 
-#gustos{
+.input-group-text{
+	border-radius: 5px !important;
+}
+
+#gustos, #botonaceptar{
 	border-color: green;
 	color: green;
 }
 
-#gustos:hover{
+#gustos:hover, #botonaceptar:hover{
 	background-color: green;
 	color: white;
 }
@@ -64,5 +70,64 @@ input{
 	background-color: blue;
 }
 
+#tablaprincipal{
+	text-align: center;
+	border-radius: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	border-radius: 1em;
+  }
+
+.text-center{
+	display: inline-block !important;
+	padding: 50px Im !important;
+	border: none !important;
+}
+
+.btn-primary{
+	font-size: 15px;
+	color: blue;
+	background-color: transparent;
+	border: none;
+}
+
+.btn-primary:hover{
+	background-color: blue;
+	color: white;
+}
+
+#botonaceptar,#botoncancelar{
+	margin: 5px;
+	border-radius: 5px;
+	background-color: transparent;
+	width: 100px;
+}
+#botoncancelar{
+	color: red;
+	border-color: red;
+}
+
+#botoncancelar:hover{
+	color:white;
+	background-color: red;
+}
+
+.col-xs-2{
+	background-color: green;
+	padding-right: 0;
+}
+
+.col-sm-10{
+	padding-left: 0;
+}
+
+.row{
+	padding-bottom: 0;
+}
+#bandera{
+	color: white;
+}
 
 
