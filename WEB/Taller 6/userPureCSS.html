@@ -73,6 +73,17 @@ input[type=submit] {
   left: -35px;
   content: "✖";
 } 
+.a{
+    width: 45%;
+    margin: auto;
+    }
+body {
+    background-color: rgb(206, 206, 206);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: auto;
+}
 
 #aligned-enfermedad{
     width: 700px;
@@ -83,7 +94,10 @@ input[type=submit] {
 </style>
 
 <body>
-    
+    <div class="container volver">
+        <button class="buttom" onclick="location.href='index.html'">Volver</button>
+    </div>
+    <div class="a">
     <h3 style="margin-left: 30;">
     <br/>Llene el siguiente formulario<br/>  
     </h3>
@@ -107,6 +121,8 @@ input[type=submit] {
             <div class="pure-control-group">
                 <label for="txtbirthdate">Fecha nacimiento</label>
                 <input id="txtbirthdate" type="text" name="txtbirthdate" maxlength="10" placeholder="mm/dd/yyyy" onkeyup="getAgeVal(0)" onblur="getAgeVal(0)">
+            </div>
+            <div class="pure-control-group">
                 <label for="txtage">Edad</label>
                 <input type="text"name="txtage" id="txtage" autocomplete="off" disabled style="color: #04AA6D;">
             </div>
@@ -182,6 +198,7 @@ input[type=submit] {
         <p><input type="checkbox" id="aligned-cb" />  Coronavirus. </p>
         <p><input type="checkbox" id="checkbox-contagiosa" />  Otra. </p>     
         <input type="text" id="aligned-enfermedad" placeholder="Describa la enfermedad" maxlength="200"/>
+    </div>
     </div>
 </body>
 </html>
