@@ -7,11 +7,15 @@
 
 body{
 
-    background-image: url(https://www.wallpaperflare.com/static/930/175/684/circles-highlights-background-form-wallpaper.jpg);
-    background-position: center;
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=3721&resolucion=3840x2160");
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
     background-size: cover;
-    font-family: sans-serif;
-    margin-top: 70px;
+	min-height:100vh;
+	font-family: 'Noto Sans', sans-serif;
+	width: 90%;
+	height: 90%;
 }
 
 .ru{
